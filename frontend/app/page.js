@@ -10,7 +10,7 @@ import Sidebar from "@/components/Sidebar.jsx";
 
 export default function Home() {
   const [betAmount, setBetAmount] = useState(1);
-  const [balance, setBalance] = useState(0);
+  const [balance, setBalance] = useState(5);
   const [rollResult, setRollResult] = useState(1);
   const [username, setUsername] = useState(null);
   const [showDepositModal, setShowDepositModal] = useState(false);
